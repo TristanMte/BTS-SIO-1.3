@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+h1 {
+    color: darkorange;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    border: 2px solid darkgreen;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 26px;
+    padding: 20px;
+}
+button{
+    width: 250px;
+    border: 2px solid darkgreen;
+    font-weight: bold;
+    border-radius: 26px;
+    background-color: black;
+    color: darkorange;
+    height: 50px;
+    margin-top: 20px;
+    box-shadow: 25px;
+
+}
+button:hover {
+    background-color: darkorange;
+    color: darkgreen;
+    border: 3px solid darkgreen;
+    transform: rotate(5deg);
+    cursor: pointer;
+}
+h2{
+    color: darkorange;
+    font-weight: bold;
+}
+input{
+    border: 2px solid darkgreen;
+    background-color: darkorange;
+    border-radius: 26px;
+    text-align: center;
+    padding: 15px 90px;
+}
