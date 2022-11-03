@@ -2,11 +2,13 @@ body{
     background-color: black;
     text-align: center;
 }
+
 h1 {
     color: darkorange;
     font-size: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 div{
     border: 2px solid darkgreen;
     width: 40%;
@@ -15,6 +17,7 @@ div{
     border-radius: 26px;
     padding: 20px;
 }
+
 button{
     width: 250px;
     border: 2px solid darkgreen;
@@ -25,8 +28,8 @@ button{
     height: 50px;
     margin-top: 20px;
     box-shadow: 25px;
-
 }
+
 button:hover {
     background-color: darkorange;
     color: darkgreen;
@@ -34,10 +37,12 @@ button:hover {
     transform: rotate(5deg);
     cursor: pointer;
 }
+
 h2{
     color: darkorange;
     font-weight: bold;
 }
+
 input{
     border: 2px solid darkgreen;
     background-color: darkorange;
@@ -45,12 +50,14 @@ input{
     text-align: center;
     padding: 15px 90px;
 }
+
 table{
     border: 0px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
+
 td{
     width: 20%;
     color: darkorange;
@@ -58,6 +65,7 @@ td{
     margin-left: auto;
     margin-right: auto;
 }
+
 Label{
     color: darkorange;
     text-align: center;
