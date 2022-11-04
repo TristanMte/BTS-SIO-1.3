@@ -1,16 +1,17 @@
 body{
-    background-color: black;
+    background-color: #e4b69b;
     text-align: center;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
 
 h1 {
-    color: darkorange;
+    color: #B0E0E6;
     font-size: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div{
-    border: 2px solid darkgreen;
+    border: 2px solid black;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -20,35 +21,38 @@ div{
 
 button{
     width: 250px;
-    border: 2px solid darkgreen;
+    border: 2px solid black;
     font-weight: bold;
     border-radius: 26px;
-    background-color: black;
-    color: darkorange;
+    background-color: #e4b69b;
+    color: #B0E0E6;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
     height: 50px;
     margin-top: 20px;
     box-shadow: 25px;
 }
 
 button:hover {
-    background-color: darkorange;
-    color: darkgreen;
-    border: 3px solid darkgreen;
+    background-color: #ffd7c0;
+    color: #ffd7c0 ;
+    border: 3px solid #B0E0E6;
     transform: rotate(5deg);
     cursor: pointer;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
 }
 
 h2{
-    color: darkorange;
+    color: #B0E0E6;
     font-weight: bold;
 }
 
 input{
-    border: 2px solid darkgreen;
-    background-color: darkorange;
+    border: 2px solid black;
+    background-color: #e4b69b;
     border-radius: 26px;
     text-align: center;
     padding: 15px 90px;
+    color: #B0E0E6;
 }
 
 table{
@@ -60,15 +64,19 @@ table{
 
 td{
     width: 20%;
-    color: darkorange;
+    color: #e4b69b;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 Label{
-    color: darkorange;
+    color: #B0E0E6;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.c1{
+    color: #B0E0E6;
 }
