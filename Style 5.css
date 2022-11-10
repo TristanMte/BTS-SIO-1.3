@@ -1,0 +1,33 @@
+body{
+	background-color: #e4b69b;
+	text-align: center;
+	margin: 50px;
+}
+
+div{
+    border: 2px solid black;
+}
+
+ul li{
+    width: 200px;
+    height: 50px;
+    border:  2px solid rgb(0, 0, 0);
+    background-color: #ffd7c0;
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 50px;
+}
+
+ul li:hover{
+    cursor: pointer;
+    width: 250px;
+    background-color:#B0E0E6 ;
+    color: #ffd7c0;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    font-weight: bold;
+    border: 3px solid black;
+    padding-left: 40px;
+    transition:all 1s;
+}
