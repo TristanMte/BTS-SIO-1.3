@@ -103,7 +103,7 @@ function permute(){
                         nbr = parseInt(nbr/10);
                         tmp = tmp*10+x;
                 }
-                alert(tmp);
+                t1.value=tmp;
     var b= document.getElementById("t2").value;
         var tmp=0, x, nbr, y;
         nbr = Number(document.getElementById("t2").value);
@@ -114,7 +114,7 @@ function permute(){
             nbr = parseInt(nbr/10);
             tmp = tmp*10+x;
         }
-        alert(tmp);
+        t2.value=tmp;
 }
 
 function releve(){
