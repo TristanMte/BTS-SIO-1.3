@@ -246,15 +246,23 @@ function switch1(){
 }
 
 function bonus(){
+    var totalf = 0
+    var total = ""
+    var c = ""
     do{
-       var article = prompt("Nom de l'article : ")
-       var prix = prompt("Prix de l'article : ")
-       var quantite = prompt("Nombre d'article : ")
+        var article = prompt("Article")
+        var price = prompt("Prix")
+        var quantity = prompt("Quantité")
 
-        alert('Vos ${article} couterons ${prix * quantite} euros')
+        alert(`Vos ${article} couterons ${price * quantity} €`)
+        total = Number(price)*Number(quantity) 
+        totalf += total 
+        c += ("Article : " +article+" <br> Prix : "+price +"€"+ " <br> Quantité : "+quantity+ " <br> Total : "+total+"€"+"<br><br><br>")
+        alert('Vos articles additionnes couterons ' + totalf + "€")
 
         next = prompt("Voulez vous continuer (OUI/STOP) ?")
     }
-    while(next != "STOP")
-        document.write()
+    while(next != "STOP");
+    document.write(c);
+    document.write(" Total final: "+totalf+"€");
 }
