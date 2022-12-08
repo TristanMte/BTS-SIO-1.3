@@ -1,0 +1,82 @@
+body{
+    background-color: #336B87;
+    text-align: center;
+    text-shadow: #763626 1px 1px, #763626 -1px 1px, #763626 -1px -1px, #763626 1px -1px;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    border: 2px solid #763626;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 26px;
+    padding: 20px;
+}
+
+button{
+    width: 250px;
+    border: 2px solid #763626;
+    font-weight: bold;
+    border-radius: 26px;
+    background-color: #336B87;
+    color: white;
+    text-shadow: #763626 1px 1px, #763626 -1px 1px, #763626 -1px -1px, #763626 1px -1px;
+    height: 50px;
+    margin-top: 20px;
+    box-shadow: 25px;
+}
+
+button:hover {
+    background-color: #90AFC5;
+    color: #90AFC5 ;
+    border: 3px solid #2A3132;
+    transform: rotate(5deg);
+    cursor: pointer;
+    text-shadow: #2A3132 1px 1px, #2A3132 -1px 1px, #2A3132 -1px -1px, #2A3132 1px -1px;
+}
+
+h2{
+    color: #90AFC5;
+    font-weight: bold;
+}
+
+input{
+    border: 2px solid #763626;
+    background-color: #90AFC5;
+    border-radius: 26px;
+    text-align: center;
+    padding: 15px 90px;
+    color: #2A3132;
+}
+
+table{
+    border: 0px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    width: 20%;
+    color: #90AFC5;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+Label{
+    color: #90AFC5;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c1{
+    color: #90AFC5;
+}
