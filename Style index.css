@@ -90,9 +90,49 @@ nav ul li{
     position: relative;
 }
 
-.home{
+/* .home{
     float: left;
     width: 2%;
     text-align: center;
     position: relative;
 }
+
+.mobile{
+    display: none;
+}
+
+nav input [type=checkbox]{
+    display: none;
+}
+
+nav input [type=checkbox]:checked ~ ul{
+    display: block;
+}
+
+@media screen and (max-width : 680px){
+    .mobile{
+        display: block;
+        color: aqua;
+        background-color: bisque;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav ul{
+        display: none
+    }
+
+    nav ul li, nav ul li a{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a, nav ul li:hover a{
+        padding: 10px 0px 10px 0px;
+    }
+
+    nav li:hover .sous{
+        display: block;
+        position: static;
+    }
+} */
