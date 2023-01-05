@@ -1,0 +1,17 @@
+body{
+    background-color: #31525B;
+    text-align: center;
+    color: whitesmoke;
+}
+
+table{
+    text-align: center;
+    border: 0px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+}

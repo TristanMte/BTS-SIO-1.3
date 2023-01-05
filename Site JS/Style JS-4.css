@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    font-weight: bolder;
+    color: #31525B
+}
+
+button{
+    width: 250px;
+    border: 2px solid #FFA101;
+    font-weight: bold;
+    border-radius: 26px;
+    background-color: #31525B;
+    color: #31525B;
+    text-shadow: #FFA101 1px 1px, #FFA101 -1px 1px, #FFA101 -1px -1px, #FFA101 1px -1px;
+    height: 50px;
+    margin-top: 10px;
+    box-shadow: 25px;
+}
+
+button:hover {
+    background-color: #FFA101;
+    color: #FFA101 ;
+    border: 3px solid #31525B;
+    transform: rotate(2deg);
+    cursor: pointer;
+    text-shadow: #31525B 1px 1px, #31525B -1px 1px, #31525B -1px -1px, #31525B 1px -1px;
+}
+
+div{
+    text-align: center;
+}
+table{
+    text-align: center;
+}

@@ -1,0 +1,81 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+h1 {
+    color: #31525B;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    border: 2px solid #ffa101;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 26px;
+    padding: 20px;
+}
+
+button{
+    width: 250px;
+    border: 2px solid #ffa101;
+    font-weight: bold;
+    border-radius: 26px;
+    background-color: #31525B;
+    color: #31525B;
+    text-shadow: #ffa101 1px 1px, #ffa101 -1px 1px, #ffa101 -1px -1px, #ffa101 1px -1px;
+    height: 50px;
+    margin-top: 20px;
+    box-shadow: 25px;
+}
+
+button:hover {
+    background-color: #ffa101;
+    color: #ffa101;
+    border: 3px solid #31525B;
+    transform: rotate(5deg);
+    cursor: pointer;
+    text-shadow: #31525B 1px 1px, #31525B -1px 1px, #31525B -1px -1px, #31525B 1px -1px;
+}
+
+h2{
+    color: #31525B;
+    font-weight: bold;
+}
+
+input{
+    border: 2px solid #ffa101;
+    background-color: #31525B;
+    border-radius: 26px;
+    text-align: center;
+    padding: 15px 90px;
+    color: whitesmoke;
+}
+
+table{
+    border: 0px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    width: 20%;
+    color: #31525B;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+Label{
+    color: #31525B;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.c1{
+    color: #31525B;
+}

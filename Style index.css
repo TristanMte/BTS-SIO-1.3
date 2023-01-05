@@ -1,0 +1,140 @@
+body{
+    background-color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+
+marquee{
+    font-size: medium;
+}
+
+img{
+    width: 25px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #31525B;
+    position: sticky;
+    top: 0px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 0px;
+    color: #FFA101;
+    border-bottom: 2px;
+}
+
+nav a:hover{
+    color: #31525B;
+    border-bottom: 2px solid whitesmoke;
+    background-color: #FFA101;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px whitesmoke;
+    color: #FFA101;
+    background-color: #31525B;
+    position: absolute;
+    width: 100%;
+    z-index: 10000;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.deroulant > a::after{
+    content: " ▼";
+    font-size: 12px;
+}
+
+.sous a:hover{
+    border-bottom: none;
+    background-color: #FFA101;
+    color:#31525B;
+}
+
+nav ul li{
+    float: left;
+    width: 18%;
+    text-align: center;
+    position: relative;
+}
+
+.home{
+    float: left;
+    width: 2%;
+    text-align: center;
+    position: relative;
+}
+
+/* .mobile{
+    display: none;
+}
+
+nav input [type=checkbox]{
+    display: none;
+}
+
+nav input [type=checkbox]:checked ~ ul{
+    display: block;
+}
+
+@media screen and (max-width : 680px){
+    .mobile{
+        display: block;
+        color: aqua;
+        background-color: bisque;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    nav ul{
+        display: none
+    }
+
+    nav ul li, nav ul li a{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a, nav ul li:hover a{
+        padding: 10px 0px 10px 0px;
+    }
+
+    nav li:hover .sous{
+        display: block;
+        position: static;
+    }
+} */
